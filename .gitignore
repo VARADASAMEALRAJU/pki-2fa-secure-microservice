@@ -1,0 +1,25 @@
+# ===========================
+# Sensitive files NOT to commit
+# ===========================
+
+# Encrypted seed (sensitive)
+encrypted_seed.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Docker/environment noise
+*.log
+*.tmp
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
